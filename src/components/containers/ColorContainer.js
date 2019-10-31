@@ -4,26 +4,26 @@ import ColorPicker from '../colors/ColorPicker';
 
 
 export default class ColorContainer extends Component {
-    state = {
-      backgroundColor: 'black'
-    };
+  state = {
+    backgroundColor: 'black'
+  };
 
-    selectColor = backgroundColor => {
-      this.setState({ backgroundColor });
-    }
+  selectColor = backgroundColor => {
+    this.setState({ backgroundColor });
+  }
 
-    render() {
-      const { backgroundColor } = this.state;
-      const colors = ['red', 'green', 'black', 'yellow'];
+  render() {  
+    const { backgroundColor } = this.state;
+    const colors = ['red', 'blue', 'pink', 'purple', 'grey', 'orange', 'yellow', 'brown', 'green', 'white', 'black'];
 
-      return (
-        <>
-          <ColorDisplay backgroundColor={backgroundColor} />
-          <ColorPicker
-            selectColor={this.selectColor}
-            colors={colors} />
-        </>
-      );
-    }
+    return (
+      <>
+        <ColorDisplay backgroundColor={backgroundColor} />
+        <ColorPicker
+          selectColor={this.selectColor}
+          colors={colors} />
+      </>
+    );
+  }
 
 }
