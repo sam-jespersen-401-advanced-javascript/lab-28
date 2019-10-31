@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorDisplay module renders a colorDisplay 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "red",
+      "backgroundImage": undefined,
+      "backgroundSize": "cover",
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+/>
+`;

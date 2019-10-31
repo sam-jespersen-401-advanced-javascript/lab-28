@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const ColorDisplay = ({ backgroundColor, backgroundImage }) => (
   <div style={{
     backgroundImage,
-    backgroundSize: 'cover',
     backgroundColor,
+    backgroundSize: 'cover',
     width: '100px',
     height: '100px'
   }}></div>
