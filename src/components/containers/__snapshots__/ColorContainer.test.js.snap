@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorContainer module renders a color container 1`] = `
+<Fragment>
+  <ColorDisplay
+    backgroundColor="black"
+  />
+  <ColorPicker
+    colors={
+      Array [
+        "red",
+        "blue",
+        "pink",
+        "purple",
+        "grey",
+        "orange",
+        "yellow",
+        "brown",
+        "green",
+        "white",
+        "black",
+      ]
+    }
+    selectColor={[Function]}
+  />
+</Fragment>
+`;

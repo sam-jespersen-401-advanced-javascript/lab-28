@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorContainer module renders a color container 1`] = `
+<ColorDisplay
+  backgroundColor="red"
+  backgroundImage="none"
+/>
+`;
